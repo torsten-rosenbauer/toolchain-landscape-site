@@ -8,6 +8,8 @@ foundation: TR
 
 url: https://torsten-rosenbauer.github.io/toolchain-landscape-site/
 
+base_path: /toolchain-landscape-site/
+
 colors:
   color1: "rgba(0, 107, 204, 1)"
   color2: "rgba(255, 0, 170, 1)"
