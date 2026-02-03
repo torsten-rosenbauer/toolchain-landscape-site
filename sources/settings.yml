@@ -6,7 +6,7 @@
 
 foundation: TR
 
-url: http://127.0.0.1:8000
+url: https://torsten-rosenbauer.github.io/toolchain-landscape-site/
 
 colors:
   color1: "rgba(0, 107, 204, 1)"
