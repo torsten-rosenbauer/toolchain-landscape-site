@@ -1,0 +1,38 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
+
+categories:
+  - category: "Software Requirements Analysis"
+    content: |
+      Defines and analyzes software requirements to ensure they are complete, consistent, correct, and testable.
+    subcategories:
+      - subcategory: "Subcategory 1-1"
+        content: |
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+
+  - category: "Software Architectural Design"
+    content: |
+      Establishes the high‑level architecture of the software, including decomposition into components and interfaces.
+  
+  - category: "Software Detailed Design and Unit Construction"
+    content: |
+      Creates detailed design for each software unit and specifies their behavior
+    
+  - category: "Software Unit Verification"
+    content: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+  
+  - category: "Software Component Verification and Integration Verification"
+    content: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+
+  - category: "Software Verification"
+    content: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+
+  
+
+  

@@ -1,0 +1,113 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Software Requirements Analysis
+    subcategories:
+      - name: Requirements Traceability
+        items:
+          - name: sphinx-needs
+            description: Sphinx-needs is a requirements management tool that allows you to manage requirements, specifications, and documentation within Sphinx.
+            homepage_url: https://sphinx-needs.org/
+            logo: sphinx-needs.svg
+            project: graduated
+            repo_url: https://github.com/useblocks/sphinx-needs            
+          - name: Eclipse RMF        
+            description: RMF is a framework for working with textual requirements, structured as ReqIF models, the industry standard for exchanging requirements. RMF uses natively ReqIF, the open standard for requirements exchange, allowing you to exchange requirements with many industry applications like Rational DOORS® or PTC integrity®.
+            homepage_url: https://eclipse.dev/rmf/
+            logo: eclipse-rmf.svg
+            project: sandbox
+            repo_url: https://github.com/eclipse-rmf     
+          
+      - name: Software Modelling / Auto‑code
+        items:
+          - name: OpenModellica            
+            description: Introduction OPENMODELICA is an open-source Modelica-based1 modeling and simulation environment intended for industrial and academic usage.
+            homepage_url: https://openmodelica.org/
+            logo: openmodelica.svg
+            repo_url: https://github.com/OpenModelica/OpenModelica            
+          - name: Eclipse Capella            
+            description: Eclipse Capella is a powerful and extensible MBSE software tool that leverages a field-proven language and method to successfully design the architecture of complex systems.
+            homepage_url: https://mbse-capella.org/
+            logo: eclipse-capella.svg
+            repo_url: https://github.com/eclipse-capella
+          - name: Eclipse Papyrus
+            description: Eclipse Papyrus is an industrial-grade open source Model-Based Engineering tool. Eclipse Papyrus has notably been used successfuly in industrial projects and is the base platform for several industrial modeling tools.
+            homepage_url: https://eclipse.dev/papyrus/
+            logo: eclipse-papyrus.svg
+            project: incubating
+            repo_url: https://gitlab.eclipse.org/eclipse/papyrus
+  - name: Software Architectural Design
+    subcategories:
+      - name: Subcategory 2-1
+        items:
+          - name: Item 6            
+            description: This is the description of item 6
+            homepage_url: https://cncf.io
+            logo: logoipsum.svg
+            project: graduated
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - name: Item 7            
+            description: This is the description of item 7
+            homepage_url: https://cncf.io
+            logo: logoipsum.svg
+            project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - name: Item 8
+            description: This is the description of item 8
+            homepage_url: https://cncf.io
+            logo: logoipsum.svg
+      - name: Subcategory 2-2
+        items:
+          - item:           
+            description: This is the description of item 9
+            homepage_url: https://cncf.io
+            logo: logoipsum.svg
+            name: Item 9
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+
+  - name: Software Detail Design and Unit Consruction
+    subcategories:
+      - name: tools
+        items:
+          - name: Example Tool
+            description: Example tool for this category
+            homepage_url: https://example.com
+            logo: logoipsum.svg
+  - name: Software Unit Verification
+    subcategories:
+      - name: tools
+        items:
+          - name: Example Tool
+            description: Example tool for this category
+            homepage_url: https://example.com
+            logo: logoipsum.svg
+  - name: Software Component Verification and Integration Verification
+    subcategories:
+      - name: Software Composition Analysis
+        items:
+          - name: OSS Review Toolkit (ORT)
+            description: The OSS Review Toolkit (ORT) is a set of tools that work together to help you manage and analyze your software projects.
+            homepage_url: https://oss-review-toolkit.org/ort/
+            logo: oss-review-toolkit.svg
+            repo_url: https://github.com/oss-review-toolkit/ort         
+          - name: Eclipse Apoapsis™ - ORT Server
+            description: The Eclipse Apoapsis project's ORT Server is a standalone application to deploy the OSS Review Toolkit as a service in the cloud.
+            homepage_url: https://eclipse-apoapsis.github.io/ort-server/
+            logo: ort-server.svg
+            repo_url: https://github.com/eclipse-apoapsis/ort-server
+  - name: Software Verification
+    subcategories:
+      - name: tools
+        items:
+          - name: Example Tool
+            description: Example tool for this category
+            homepage_url: https://example.com
+            logo: logoipsum.svg
+
