@@ -41,73 +41,67 @@ categories:
             project: incubating
             repo_url: https://gitlab.eclipse.org/eclipse/papyrus
   - name: Software Architectural Design
-    subcategories:
-      - name: Subcategory 2-1
-        items:
-          - name: Item 6            
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: logoipsum.svg
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 7            
-            description: This is the description of item 7
-            homepage_url: https://cncf.io
-            logo: logoipsum.svg
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 8
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: logoipsum.svg
-      - name: Subcategory 2-2
-        items:
-          - item:           
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: logoipsum.svg
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
+    subcategories: []
 
   - name: Software Detail Design and Unit Consruction
-    subcategories:
-      - name: tools
-        items:
-          - name: Example Tool
-            description: Example tool for this category
-            homepage_url: https://example.com
-            logo: logoipsum.svg
+    subcategories: []
   - name: Software Unit Verification
-    subcategories:
-      - name: tools
-        items:
-          - name: Example Tool
-            description: Example tool for this category
-            homepage_url: https://example.com
-            logo: logoipsum.svg
+    subcategories: []
   - name: Software Component Verification and Integration Verification
     subcategories:
-      - name: Software Composition Analysis
+      - name: Software Composition Analysis Services
+        items:
+          - name: Eclipse Apoapsis™ - ORT Server
+            description: The Eclipse Apoapsis project's ORT Server is a standalone application to deploy the OSS Review Toolkit as a service in the cloud.
+            homepage_url: https://eclipse-apoapsis.github.io/ort-server/
+            logo: ort-server.svg
+            project: graduated
+            repo_url: https://github.com/eclipse-apoapsis/ort-server
+          - name: Dependency-Track
+            description: Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain by consuming SBOMs.
+            homepage_url: https://dependencytrack.org/
+            logo: dependency-track.svg
+            project: graduated
+            repo_url: https://github.com/DependencyTrack/dependency-track
+      - name: Software Composition Analysis Scanners and Analyzers
         items:
           - name: OSS Review Toolkit (ORT)
             description: The OSS Review Toolkit (ORT) is a set of tools that work together to help you manage and analyze your software projects.
             homepage_url: https://oss-review-toolkit.org/ort/
             logo: oss-review-toolkit.svg
-            repo_url: https://github.com/oss-review-toolkit/ort         
-          - name: Eclipse Apoapsis™ - ORT Server
-            description: The Eclipse Apoapsis project's ORT Server is a standalone application to deploy the OSS Review Toolkit as a service in the cloud.
-            homepage_url: https://eclipse-apoapsis.github.io/ort-server/
-            logo: ort-server.svg
-            repo_url: https://github.com/eclipse-apoapsis/ort-server
+            project: graduated
+            repo_url: https://github.com/oss-review-toolkit/ort
+          - name: Eclipse Dash License Tool
+            description: The Eclipse Dash License Tool identifies the licenses of the content of a project's dependencies. It takes a list of dependencies as input, resolves each against the Eclipse Foundation's ClearlyDefined and IP Team databases, and reports the license information along with whether the content is approved for use.
+            homepage_url: https://projects.eclipse.org/projects/technology.dash
+            logo: eclipse-dash.svg
+            project: graduated
+            repo_url: https://github.com/eclipse-dash/dash-licenses
+          - name: cdxgen
+            description: cdxgen is a CLI tool, library, and server for generating CycloneDX Bill of Materials (SBOM, CBOM, OBOM, SaaSBOM, CDXA) for most languages, package managers, and container images.
+            homepage_url: https://cdxgen.github.io/cdxgen/
+            logo: cdxgen.svg
+            repo_url: https://github.com/CycloneDX/cdxgen
+          - name: Eclipse S-CORE SBOM Tool
+            description: Bazel rules that generate a Software Bill of Materials in SPDX 2.3 and CycloneDX 1.6 format for a given Bazel target.
+            homepage_url: https://github.com/eclipse-score/sbom-tool
+            logo: eclipse-score.svg
+            project: graduated
+            repo_url: https://github.com/eclipse-score/sbom-tool
+          - name: Syft
+            description: Syft is a CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
+            homepage_url: https://github.com/anchore/syft
+            logo: syft.svg
+            repo_url: https://github.com/anchore/syft
+          - name: Grype
+            description: Grype is a vulnerability scanner for container images and filesystems.
+            homepage_url: https://github.com/anchore/grype
+            logo: grype.svg
+            repo_url: https://github.com/anchore/grype
+          - name: Grant
+            description: Grant is a license scanner for container images, filesystems and SBOMs.
+            homepage_url: https://github.com/anchore/grant
+            logo: grant.svg
+            repo_url: https://github.com/anchore/grant
   - name: Software Verification
-    subcategories:
-      - name: tools
-        items:
-          - name: Example Tool
-            description: Example tool for this category
-            homepage_url: https://example.com
-            logo: logoipsum.svg
-
+    subcategories: []

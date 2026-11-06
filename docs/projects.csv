@@ -1,6 +1,9 @@
 project_name,maturity,tag,accepted_date,sandbox_date,incubating_date,graduated_date,archived_date,num_security_audits,last_security_audit_date
+dependency-track,graduated,,,,,,,0,
+eclipse apoapsis™ - ort server,graduated,,,,,,,0,
+eclipse dash license tool,graduated,,,,,,,0,
 eclipse papyrus,incubating,,,,,,,0,
 eclipse rmf,sandbox,,,,,,,0,
-item 6,graduated,,,,,,,0,
-item 7,sandbox,,,,,,,0,
+eclipse s-core sbom tool,graduated,,,,,,,0,
+oss review toolkit (ort),graduated,,,,,,,0,
 sphinx-needs,graduated,,,,,,,0,
